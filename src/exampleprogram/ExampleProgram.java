@@ -19,8 +19,10 @@ public class ExampleProgram {
         boolean booleano = true;
        
        // Numero con virgola (Double)
-        double numConVirgola = 3.14; // N.B. Il java utilizza l'inglese, quindi i numeri non sono con la virgola ma con il punto!
-       System.out.println("Stringa: " + stringa + "\n" + "Intero: " + Intero + "\n" + "Booleano: " + booleano + "\n" + "Numero con virgola: " + numConVirgola);
+        double numConVirgola = 3.14; // Il java utilizza l'inglese, quindi i numeri non sono con la virgola ma con il punto!
+
+        
+       System.out.println("Stringa: " + stringa + "\n" + "Intero: " + Intero + "\n" + "Booleano: " + booleano + "\n" + "Numero con virgola: " + numConVirgola); // Stampa del testo a schermo
         
        
        /*   Dichiariamo l'oggetto Scanner:
@@ -30,11 +32,11 @@ public class ExampleProgram {
         *   Esempio di dichiarazione:
         *   NomeOggetto nomeIstanza = new Oggetto(args);
        */
-        Scanner nomeScanner = new Scanner(System.in);
+        Scanner nomeScanner = new Scanner(System.in); // Creiamo un oggetto Scanner chiamato nomeScanner
         
         // Esempio di programma base
          System.out.println("Inserisci un qualunque dato!");
-         String dato = nomeScanner.nextLine();
+         String dato = nomeScanner.nextLine(); // Leggiamo l'input dell'utente
         
          System.out.println("hai inserito: " + dato);
         
